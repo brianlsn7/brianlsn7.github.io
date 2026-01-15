@@ -5,7 +5,7 @@ title: "Home"
 # 🏠 Home
 
 <!-- SIT Logo at the top -->
-![](img/lab_sit_logo.png){ width=150px style="display:block; margin-left:auto; margin-right:auto;" }
+![](img/dp.png){ width=150px style="display:block; margin-left:auto; margin-right:auto;" }
 
 ## Who am I?
 

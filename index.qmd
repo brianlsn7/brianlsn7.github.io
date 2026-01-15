@@ -1,11 +1,32 @@
 ---
-title: "temp_website"
+title: "Home"
 ---
 
-This is a Quarto website.
+# 🏠 Home
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<!-- SIT Logo at the top -->
+![](img/lab_sit_logo.png){ width=150px style="display:block; margin-left:auto; margin-right:auto;" }
 
-```{r}
-1 + 1
-```
+## Who am I?
+
+I am **Brian Liew**, a student at SIT with a passion for **data analysis, visualization, and machine learning**.
+
+I built this portfolio to:
+- Showcase my projects  
+- Highlight my technical skills  
+- Demonstrate my ability to **turn data into actionable insights**
+
+## Why this portfolio?
+
+The portfolio is meant to:
+- Share my **learning journey**  
+- Explain the thought process behind my projects  
+- Show how I communicate technical findings clearly
+
+## How it is organized
+
+The portfolio contains:
+- **Home page** – Introduction and overview  
+- **Data Visualization** – Key visualizations and feature analysis  
+- **Reflection** – Lessons learned and critical thinking  
+- **Final Year Project (FYP)** – End-to-end machine learning project

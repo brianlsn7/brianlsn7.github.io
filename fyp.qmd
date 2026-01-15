@@ -1,0 +1,34 @@
+---
+title: "Final Year Project (FYP)"
+---
+
+# 🎓 Final Year Project: Phishing Email Detection
+
+## What was the project about?
+
+One of my past project focused on **machine learning-based phishing email detection**, aiming to automatically classify emails as phishing or non-phishing.
+
+## How did I approach it?
+
+Steps I took:
+1. **Data Collection and Preprocessing**  
+   - Collected emails and extracted numerical/categorical features  
+2. **Feature Analysis and Selection**  
+   - Identified top features using visualizations like the bar chart  
+3. **Model Development**  
+   - Trained classifiers like Random Forest and XGBoost  
+4. **Evaluation and Deployment**  
+   - Evaluated with accuracy, precision, recall, and F1-score  
+   - Integrated top model into a prototype email filter
+
+## Achievements
+
+- Achieved **high classification accuracy** without overfitting  
+- Produced **explainable results** using feature importance visualizations  
+- Maintained a **reproducible workflow** for data analysis and model training
+
+## What I learned
+
+- Combining **exploratory analysis, visualization, and machine learning** is powerful  
+- Clear presentation of results improves **stakeholder understanding**  
+- Reflection on each step helps me **improve future projects**

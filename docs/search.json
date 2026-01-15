@@ -1,9 +1,142 @@
 [
   {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "I used ChatGPT as my main GenAI tool.\nI chose ChatGPT because it is easy to use and can help with: - Writing content\n- Formatting in Markdown\n- Understanding Quarto syntax\n- Debugging errors\n\n\n\nChatGPT helped me: - Generate page content when I was unsure how to start\n- Format my text using Markdown\n- Structure my website pages logically\nFor example, it helped me write the project page and the data visualization explanation in a clear way.\n\n\n\n\nSaves time\n\nHelps organize ideas\n\nReduces frustration when stuck\n\n\n\n\nSometimes the generated text is too general, so I still had to: - Edit the content\n- Add my own experience\n- Make it more personal\n\n\n\nI think GenAI will be very useful for: - Writing reports\n- Debugging code\n- Learning new topics\n- Preparing presentations\nIt is a powerful assistant, but it still needs human judgment."
+  },
+  {
+    "objectID": "reflection.html#what-genai-tool-did-i-use",
+    "href": "reflection.html#what-genai-tool-did-i-use",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "I used ChatGPT as my main GenAI tool.\nI chose ChatGPT because it is easy to use and can help with: - Writing content\n- Formatting in Markdown\n- Understanding Quarto syntax\n- Debugging errors"
+  },
+  {
+    "objectID": "reflection.html#how-did-genai-help-me",
+    "href": "reflection.html#how-did-genai-help-me",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "ChatGPT helped me: - Generate page content when I was unsure how to start\n- Format my text using Markdown\n- Structure my website pages logically\nFor example, it helped me write the project page and the data visualization explanation in a clear way."
+  },
+  {
+    "objectID": "reflection.html#benefits",
+    "href": "reflection.html#benefits",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "Saves time\n\nHelps organize ideas\n\nReduces frustration when stuck"
+  },
+  {
+    "objectID": "reflection.html#challenges",
+    "href": "reflection.html#challenges",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "Sometimes the generated text is too general, so I still had to: - Edit the content\n- Add my own experience\n- Make it more personal"
+  },
+  {
+    "objectID": "reflection.html#future-use",
+    "href": "reflection.html#future-use",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "I think GenAI will be very useful for: - Writing reports\n- Debugging code\n- Learning new topics\n- Preparing presentations\nIt is a powerful assistant, but it still needs human judgment."
+  },
+  {
+    "objectID": "fyp.html",
+    "href": "fyp.html",
+    "title": "Final Year Project (FYP)",
+    "section": "",
+    "text": "One of my past project focused on machine learning-based phishing email detection, aiming to automatically classify emails as phishing or non-phishing.\n\n\n\nSteps I took: 1. Data Collection and Preprocessing\n- Collected emails and extracted numerical/categorical features\n2. Feature Analysis and Selection\n- Identified top features using visualizations like the bar chart\n3. Model Development\n- Trained classifiers like Random Forest and XGBoost\n4. Evaluation and Deployment\n- Evaluated with accuracy, precision, recall, and F1-score\n- Integrated top model into a prototype email filter\n\n\n\n\nAchieved high classification accuracy without overfitting\n\nProduced explainable results using feature importance visualizations\n\nMaintained a reproducible workflow for data analysis and model training\n\n\n\n\n\nCombining exploratory analysis, visualization, and machine learning is powerful\n\nClear presentation of results improves stakeholder understanding\n\nReflection on each step helps me improve future projects"
+  },
+  {
+    "objectID": "fyp.html#what-was-the-project-about",
+    "href": "fyp.html#what-was-the-project-about",
+    "title": "Final Year Project (FYP)",
+    "section": "",
+    "text": "One of my past project focused on machine learning-based phishing email detection, aiming to automatically classify emails as phishing or non-phishing."
+  },
+  {
+    "objectID": "fyp.html#how-did-i-approach-it",
+    "href": "fyp.html#how-did-i-approach-it",
+    "title": "Final Year Project (FYP)",
+    "section": "",
+    "text": "Steps I took: 1. Data Collection and Preprocessing\n- Collected emails and extracted numerical/categorical features\n2. Feature Analysis and Selection\n- Identified top features using visualizations like the bar chart\n3. Model Development\n- Trained classifiers like Random Forest and XGBoost\n4. Evaluation and Deployment\n- Evaluated with accuracy, precision, recall, and F1-score\n- Integrated top model into a prototype email filter"
+  },
+  {
+    "objectID": "fyp.html#achievements",
+    "href": "fyp.html#achievements",
+    "title": "Final Year Project (FYP)",
+    "section": "",
+    "text": "Achieved high classification accuracy without overfitting\n\nProduced explainable results using feature importance visualizations\n\nMaintained a reproducible workflow for data analysis and model training"
+  },
+  {
+    "objectID": "fyp.html#what-i-learned",
+    "href": "fyp.html#what-i-learned",
+    "title": "Final Year Project (FYP)",
+    "section": "",
+    "text": "Combining exploratory analysis, visualization, and machine learning is powerful\n\nClear presentation of results improves stakeholder understanding\n\nReflection on each step helps me improve future projects"
+  },
+  {
+    "objectID": "datavis.html",
+    "href": "datavis.html",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "I worked on a phishing email detection project to classify emails as phishing or non-phishing based on content and metadata.\nThe goal of this page is to explain how I analyzed features and visualized them.\n\n\n\nI created a bar chart showing the top 5 numerical features for predicting phishing emails:\n\n\n\nTop 5 Features for Phishing Email Detection\n\n\n\n\n\nSubject Caps Percentage – proportion of capital letters in the subject\n\nBody Caps Percentage – proportion of capital letters in the email body\n\nSuspicious Keyword Count – number of phishing-related words\n\nURL Label – whether the URL is suspicious\n\nComposite Score – weighted combination of multiple features\n\n\n\n\n\n\nA bar chart makes it easy to compare numerical values across features\n\nOrdering from most to least important highlights key factors\n\nHelps communicate insights to both technical and non-technical audiences\n\n\n\n\n\nVisualization clarifies which features are most predictive\n\nFocusing on key metrics makes insights actionable\n\nClear visualizations improve communication of findings"
+  },
+  {
+    "objectID": "datavis.html#what-was-the-project-about",
+    "href": "datavis.html#what-was-the-project-about",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "I worked on a phishing email detection project to classify emails as phishing or non-phishing based on content and metadata.\nThe goal of this page is to explain how I analyzed features and visualized them."
+  },
+  {
+    "objectID": "datavis.html#how-did-i-use-visualization",
+    "href": "datavis.html#how-did-i-use-visualization",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "I created a bar chart showing the top 5 numerical features for predicting phishing emails:\n\n\n\nTop 5 Features for Phishing Email Detection\n\n\n\n\n\nSubject Caps Percentage – proportion of capital letters in the subject\n\nBody Caps Percentage – proportion of capital letters in the email body\n\nSuspicious Keyword Count – number of phishing-related words\n\nURL Label – whether the URL is suspicious\n\nComposite Score – weighted combination of multiple features"
+  },
+  {
+    "objectID": "datavis.html#why-this-visualization",
+    "href": "datavis.html#why-this-visualization",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "A bar chart makes it easy to compare numerical values across features\n\nOrdering from most to least important highlights key factors\n\nHelps communicate insights to both technical and non-technical audiences"
+  },
+  {
+    "objectID": "datavis.html#what-i-learned",
+    "href": "datavis.html#what-i-learned",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "Visualization clarifies which features are most predictive\n\nFocusing on key metrics makes insights actionable\n\nClear visualizations improve communication of findings"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "temp_website",
+    "title": "Home",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "I am Brian Liew, a student at SIT with a passion for data analysis, visualization, and machine learning.\nI built this portfolio to: - Showcase my projects\n- Highlight my technical skills\n- Demonstrate my ability to turn data into actionable insights\n\n\n\nThe portfolio is meant to: - Share my learning journey\n- Explain the thought process behind my projects\n- Show how I communicate technical findings clearly\n\n\n\nThe portfolio contains: - Home page – Introduction and overview\n- Data Visualization – Key visualizations and feature analysis\n- Reflection – Lessons learned and critical thinking\n- Final Year Project (FYP) – End-to-end machine learning project"
+  },
+  {
+    "objectID": "index.html#who-am-i",
+    "href": "index.html#who-am-i",
+    "title": "Home",
+    "section": "",
+    "text": "I am Brian Liew, a student at SIT with a passion for data analysis, visualization, and machine learning.\nI built this portfolio to: - Showcase my projects\n- Highlight my technical skills\n- Demonstrate my ability to turn data into actionable insights"
+  },
+  {
+    "objectID": "index.html#why-this-portfolio",
+    "href": "index.html#why-this-portfolio",
+    "title": "Home",
+    "section": "",
+    "text": "The portfolio is meant to: - Share my learning journey\n- Explain the thought process behind my projects\n- Show how I communicate technical findings clearly"
+  },
+  {
+    "objectID": "index.html#how-it-is-organized",
+    "href": "index.html#how-it-is-organized",
+    "title": "Home",
+    "section": "",
+    "text": "The portfolio contains: - Home page – Introduction and overview\n- Data Visualization – Key visualizations and feature analysis\n- Reflection – Lessons learned and critical thinking\n- Final Year Project (FYP) – End-to-end machine learning project"
   }
 ]

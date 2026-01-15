@@ -1,0 +1,39 @@
+---
+title: "Data Visualization"
+---
+
+# 📊 Phishing Email Detection: Feature Analysis
+
+<!-- SIT Logo -->
+![](img/lab_sit_logo.png){width=100px}
+
+## What was the project about?
+
+I worked on a **phishing email detection project** to classify emails as phishing or non-phishing based on content and metadata.
+
+The goal of this page is to explain **how I analyzed features** and visualized them.
+
+## How did I use visualization?
+
+I created a **bar chart** showing the top 5 numerical features for predicting phishing emails:
+
+![Top 5 Features for Phishing Email Detection](img/phishing.png){width=80%}
+
+### Features included:
+- **Subject Caps Percentage** – proportion of capital letters in the subject  
+- **Body Caps Percentage** – proportion of capital letters in the email body  
+- **Suspicious Keyword Count** – number of phishing-related words  
+- **URL Label** – whether the URL is suspicious  
+- **Composite Score** – weighted combination of multiple features  
+
+## Why this visualization?
+
+- A bar chart makes it easy to **compare numerical values across features**  
+- Ordering from most to least important highlights key factors  
+- Helps communicate insights to both **technical and non-technical audiences**
+
+## What I learned
+
+- Visualization clarifies which features are **most predictive**  
+- Focusing on key metrics makes insights **actionable**  
+- Clear visualizations improve **communication of findings**

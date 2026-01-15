@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Home – Brian</title>
+<title>Data Visualization – Brian</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Project</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./datavis.html"> 
+    <a class="nav-link active" href="./datavis.html" aria-current="page"> 
 <span class="menu-text">Data Visualization</span></a>
   </li>  
   <li class="nav-item">
@@ -126,11 +126,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#home" id="toc-home" class="nav-link active" data-scroll-target="#home">🏠 Home</a>
+  <li><a href="#phishing-email-detection-feature-analysis" id="toc-phishing-email-detection-feature-analysis" class="nav-link active" data-scroll-target="#phishing-email-detection-feature-analysis">📊 Phishing Email Detection: Feature Analysis</a>
   <ul class="collapse">
-  <li><a href="#who-am-i" id="toc-who-am-i" class="nav-link" data-scroll-target="#who-am-i">Who am I?</a></li>
-  <li><a href="#why-this-portfolio" id="toc-why-this-portfolio" class="nav-link" data-scroll-target="#why-this-portfolio">Why this portfolio?</a></li>
-  <li><a href="#how-it-is-organized" id="toc-how-it-is-organized" class="nav-link" data-scroll-target="#how-it-is-organized">How it is organized</a></li>
+  <li><a href="#what-was-the-project-about" id="toc-what-was-the-project-about" class="nav-link" data-scroll-target="#what-was-the-project-about">What was the project about?</a></li>
+  <li><a href="#how-did-i-use-visualization" id="toc-how-did-i-use-visualization" class="nav-link" data-scroll-target="#how-did-i-use-visualization">How did I use visualization?</a>
+  <ul class="collapse">
+  <li><a href="#features-included" id="toc-features-included" class="nav-link" data-scroll-target="#features-included">Features included:</a></li>
+  </ul></li>
+  <li><a href="#why-this-visualization" id="toc-why-this-visualization" class="nav-link" data-scroll-target="#why-this-visualization">Why this visualization?</a></li>
+  <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I learned</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -144,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Home</h1>
+<h1 class="title">Data Visualization</h1>
 </div>
 
 
@@ -161,29 +165,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="home" class="level1">
-<h1>🏠 Home</h1>
-<!-- SIT Logo at the top -->
-<p><img src="img/lab_sit_logo.png" class="img-fluid" style="display:block; margin-left:auto; margin-right:auto;" width="150"></p>
-<section id="who-am-i" class="level2">
-<h2 class="anchored" data-anchor-id="who-am-i">Who am I?</h2>
-<p>I am <strong>Brian Liew</strong>, a student at SIT with a passion for <strong>data analysis, visualization, and machine learning</strong>.</p>
-<p>I built this portfolio to: - Showcase my projects<br>
-- Highlight my technical skills<br>
-- Demonstrate my ability to <strong>turn data into actionable insights</strong></p>
+<section id="phishing-email-detection-feature-analysis" class="level1">
+<h1>📊 Phishing Email Detection: Feature Analysis</h1>
+<!-- SIT Logo -->
+<p><img src="img/lab_sit_logo.png" class="img-fluid" width="100"></p>
+<section id="what-was-the-project-about" class="level2">
+<h2 class="anchored" data-anchor-id="what-was-the-project-about">What was the project about?</h2>
+<p>I worked on a <strong>phishing email detection project</strong> to classify emails as phishing or non-phishing based on content and metadata.</p>
+<p>The goal of this page is to explain <strong>how I analyzed features</strong> and visualized them.</p>
 </section>
-<section id="why-this-portfolio" class="level2">
-<h2 class="anchored" data-anchor-id="why-this-portfolio">Why this portfolio?</h2>
-<p>The portfolio is meant to: - Share my <strong>learning journey</strong><br>
-- Explain the thought process behind my projects<br>
-- Show how I communicate technical findings clearly</p>
+<section id="how-did-i-use-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="how-did-i-use-visualization">How did I use visualization?</h2>
+<p>I created a <strong>bar chart</strong> showing the top 5 numerical features for predicting phishing emails:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/phishing.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Top 5 Features for Phishing Email Detection</figcaption>
+</figure>
+</div>
+<section id="features-included" class="level3">
+<h3 class="anchored" data-anchor-id="features-included">Features included:</h3>
+<ul>
+<li><strong>Subject Caps Percentage</strong> – proportion of capital letters in the subject<br>
+</li>
+<li><strong>Body Caps Percentage</strong> – proportion of capital letters in the email body<br>
+</li>
+<li><strong>Suspicious Keyword Count</strong> – number of phishing-related words<br>
+</li>
+<li><strong>URL Label</strong> – whether the URL is suspicious<br>
+</li>
+<li><strong>Composite Score</strong> – weighted combination of multiple features</li>
+</ul>
 </section>
-<section id="how-it-is-organized" class="level2">
-<h2 class="anchored" data-anchor-id="how-it-is-organized">How it is organized</h2>
-<p>The portfolio contains: - <strong>Home page</strong> – Introduction and overview<br>
-- <strong>Data Visualization</strong> – Key visualizations and feature analysis<br>
-- <strong>Reflection</strong> – Lessons learned and critical thinking<br>
-- <strong>Final Year Project (FYP)</strong> – End-to-end machine learning project</p>
+</section>
+<section id="why-this-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-visualization">Why this visualization?</h2>
+<ul>
+<li>A bar chart makes it easy to <strong>compare numerical values across features</strong><br>
+</li>
+<li>Ordering from most to least important highlights key factors<br>
+</li>
+<li>Helps communicate insights to both <strong>technical and non-technical audiences</strong></li>
+</ul>
+</section>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I learned</h2>
+<ul>
+<li>Visualization clarifies which features are <strong>most predictive</strong><br>
+</li>
+<li>Focusing on key metrics makes insights <strong>actionable</strong><br>
+</li>
+<li>Clear visualizations improve <strong>communication of findings</strong></li>
+</ul>
 
 
 </section>

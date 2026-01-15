@@ -1,0 +1,47 @@
+---
+title: "Reflection on the use of GenAI"
+---
+
+# 🤖 Reflection on the use of GenAI
+
+## What GenAI tool did I use?
+
+I used **ChatGPT** as my main GenAI tool.
+
+I chose ChatGPT because it is easy to use and can help with:
+- Writing content  
+- Formatting in Markdown  
+- Understanding Quarto syntax  
+- Debugging errors  
+
+## How did GenAI help me?
+
+ChatGPT helped me:
+- Generate page content when I was unsure how to start  
+- Format my text using Markdown  
+- Structure my website pages logically  
+
+For example, it helped me write the **project page** and the **data visualization explanation** in a clear way.
+
+## Benefits
+
+- Saves time  
+- Helps organize ideas  
+- Reduces frustration when stuck  
+
+## Challenges
+
+Sometimes the generated text is too general, so I still had to:
+- Edit the content  
+- Add my own experience  
+- Make it more personal  
+
+## Future use
+
+I think GenAI will be very useful for:
+- Writing reports  
+- Debugging code  
+- Learning new topics  
+- Preparing presentations  
+
+It is a powerful assistant, but it still needs human judgment.
